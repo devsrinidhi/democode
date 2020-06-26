@@ -1,22 +1,17 @@
-Example Uber app for developers
+Example Web app for developers
 ==============================
-
-[![TravisCI](https://travis-ci.org/uber/Python-Sample-Application.svg?branch=master)](https://travis-ci.org/uber/Python-Sample-Application)
-[![Coverage Status](https://coveralls.io/repos/uber/Python-Sample-Application/badge.png)](https://coveralls.io/r/uber/Python-Sample-Application)
-
-https://developer.uber.com/
 
 What Is This?
 -------------
 
-This is a simple Python/Flask application intended to provide a working example of Uber's external API. The goal of these endpoints is to be simple, well-documented and to provide a base for developers to develop other applications off of.
+This is a simple Python/Flask application intended to provide a working example of external API. The goal of these endpoints is to be simple, well-documented and to provide a base for developers to develop other applications off of.
 
 
 How To Use This
 ---------------
 
-1. Navigate over to https://developer.uber.com/, and sign up for an Uber developer account.
-2. Register a new Uber application and make your Redirect URI `http://localhost:7000/submit` - ensure that both the `profile` and `history` OAuth scopes are checked.
+1. Navigate over to https://developer.com/, and sign up for a developer account.
+2. Register a new application and make your Redirect URI `http://localhost:7000/submit` - ensure that both the `profile` and `history` OAuth scopes are checked.
 3. Fill in the relevant information in the `config.json` file in the root folder and add your client id and secret as the environment variables `UBER_CLIENT_ID` and `UBER_CLIENT_SECRET`.
 4. Run `export UBER_CLIENT_ID="`*{your client id}*`"&&export UBER_CLIENT_SECRET="`*{your client secret}*`"`
 5. Run `pip install -r requirements.txt` to install dependencies
@@ -52,5 +47,3 @@ You will also want to configure the heroku environment variable FLASK_DEBUG=Fals
 
 Making Requests
 ---------------
-
-The base for all requests is https://api.uber.com/v1/, to find a list of all available endpoints, please visit: https://developer.uber.com/v1/endpoints/
