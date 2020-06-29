@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 import pandas as pd
-#comment
+#commented by user
 
 setup(
     name='Python-Sample-Application',
