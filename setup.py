@@ -1,5 +1,4 @@
 from setuptools import setup, find_packages
-import pandas as pd
 #commented by app user
 
 setup(
