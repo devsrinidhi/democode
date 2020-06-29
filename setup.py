@@ -1,4 +1,5 @@
 from setuptools import setup, find_packages
+import pandas as pd
 
 setup(
     name='Python-Sample-Application',
