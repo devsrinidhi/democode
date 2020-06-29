@@ -2,7 +2,6 @@ from setuptools import setup, find_packages
 import pandas as pd
 
 
-
 setup(
     name='Python-Sample-Application',
     version='0.0.1',
